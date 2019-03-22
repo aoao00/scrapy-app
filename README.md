@@ -8,7 +8,8 @@
 
 本爬虫使用的是Scrapy爬虫框架，[文档](https://docs.scrapy.org/en/latest/index.html)。
 
-\```bash
+```bash
+bash
 
 pip install scrapy
 
@@ -17,8 +18,7 @@ git clone https://github.com/aoao00/scrapy-app.git
 cd scrape-app/app
 
 scrapy crawl app -o result.csv
-
-\```
+```
 
 这个时候爬虫已经在运行了。
 
