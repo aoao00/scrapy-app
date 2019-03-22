@@ -7,8 +7,11 @@
 
 import scrapy
 
-
 class AppItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    com_score=scrapy.Field()
+    com_content=scrapy.Field()
+    com_time=scrapy.Field()
+    com_weight=scrapy.Field()
+    com_likes=scrapy.Field()
+    com_ver=scrapy.Field()
     pass
